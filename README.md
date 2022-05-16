@@ -8,7 +8,7 @@
 
 ## Blurb
 
-A hook for Next.js which can parse and return a query-string object, even on load.
+A library for query string type coercion
 
 ## Installation
 
