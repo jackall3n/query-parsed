@@ -15,7 +15,7 @@ type ParseType<T> =
     IsBoolean<T> extends true ? boolean :
       IsNumber<T> extends true ? number : (string | string[])
 
-type Parsed<T> = {
+export type Parsed<T> = {
   [K in keyof T]: ParseType<T[K]>
 }
 
