@@ -1,7 +1,7 @@
 {
   "name": "query-parsed",
   "description": "A library for query string type coercion",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "main": "index.js",
   "keywords": [
     "query",
